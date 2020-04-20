@@ -1,0 +1,29 @@
+.PaginationControls {
+  margin-top: 8px;
+  text-align: center;
+}
+
+.PaginationControls button {
+  border: 1px solid #ccc;
+  padding: 2px 6px;
+  margin: 4px;
+  border-radius: 4px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.PaginationControls button:disabled {
+  border: 1px solid #eee;
+  background-color: transparent;
+  border-color: #ccc;
+  color: #888;
+  cursor: default;
+}
+
+.PaginationControls button:first-of-type {
+  margin-right: 12px;
+}
+
+.PaginationControls button:last-of-type {
+  margin-left: 12px;
+}
